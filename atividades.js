@@ -25,3 +25,12 @@ if(estaLogado && ehAdiministrador || estaLogado && verificaSuporte === suporteEm
 }else{
     console.log("Voce não tem permissão para acessar essa funcionalidade");
 }
+
+const idadeUsuário  = 15;
+const idadeMínima = 21;
+
+if (idadeUsuário < idadeMínima) {
+    console.log("Não é possível comprar o Ingresso , idade insuficiente");
+} else {
+    console.log("Ingresso comprado com sucesso , bom show !");
+}
