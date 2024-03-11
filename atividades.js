@@ -16,9 +16,11 @@ const ehpar = num %2 === 0? "O número é par" : "O número não é par";
 console.log(ehpar);
 
 const estaLogado = true;
-const ehAdiministrador = true;
+const ehAdiministrador = false;
+const suporteEmergencia = "Emergencia";
+const verificaSuporte = "Emergencia";
 
-if(estaLogado && ehAdiministrador){
+if(estaLogado && ehAdiministrador || estaLogado && verificaSuporte === suporteEmergencia){
     console.log("Permissão concedida , bom trabalho !");
 }else{
     console.log("Voce não tem permissão para acessar essa funcionalidade");
