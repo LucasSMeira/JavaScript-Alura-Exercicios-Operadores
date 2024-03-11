@@ -14,3 +14,12 @@ console.log(operacao);
 const num = 10
 const ehpar = num %2 === 0? "O número é par" : "O número não é par";
 console.log(ehpar);
+
+const estaLogado = true;
+const ehAdiministrador = true;
+
+if(estaLogado && ehAdiministrador){
+    console.log("Permissão concedida , bom trabalho !");
+}else{
+    console.log("Voce não tem permissão para acessar essa funcionalidade");
+}
